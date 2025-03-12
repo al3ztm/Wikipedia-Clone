@@ -26,10 +26,6 @@ main {
 .title h2::first-letter {
     font-size: 35px;
 }
-.title h2::after {
-    content: 'a';
-    font-size: 35px;
-}
 .single {
     margin: 15px 0;
     padding: 10px 20px;
@@ -48,7 +44,7 @@ h4 {
 }
 .single p {
     font-size: 13px;
-    color: black;
+    color: #54595d ;
 }
 .search {
     margin-top: 20px;
@@ -57,12 +53,11 @@ h4 {
 }
 .search input {
     width: 395px;
-    height: 45px;
+    height: 40px;
     font-size: 15px;
     padding: 15px;
     outline: none;
     border: 1px solid rgba(0, 0, 0, .4);
-    border-radius: 10px;
 }
 .search input:focus {
     border-color: #3366cc;
